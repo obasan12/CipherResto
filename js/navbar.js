@@ -1,0 +1,1 @@
+const openBtn=document.getElementById("openNav"),closeBtn=document.getElementById("closeNav"),navbar=document.getElementById("sm-navbar-content");openBtn.addEventListener("click",(function(){navbar.style.display="block"})),closeBtn.addEventListener("click",(function(){navbar.style.display="none"}));
